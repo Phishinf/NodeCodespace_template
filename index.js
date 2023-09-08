@@ -1,7 +1,7 @@
 let express = require('express');
 let app = express();
 let ejs = require('ejs');
-const haikus = require('./haikus.json');
+const haikus = require('./victor.json');
 const port = process.env.PORT || 3000;
 
 app.use(express.static('public'))
